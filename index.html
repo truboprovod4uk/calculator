@@ -2,6 +2,7 @@
 <html lang="eng">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JS Calculator</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
@@ -11,12 +12,12 @@
 
 		    <input id="fn" type="text" placeholder="Input number"><br><br>
 		    <input id="sn" type="text" placeholder="Input number"><br><br>
-		    <button class="leftmarg" onclick="add();">+</button>
-		    <button onclick="minus();">-</button>
-		    <button onclick="multiple();">*</button>
-		    <button onclick="division();">/</button><br><br>
+		    <button id="add">+</button>
+		    <button id="minus">-</button>
+		    <button id="multiply">*</button>
+		    <button id="division">/</button><br><br>
 		    <input id="result" type="text" placeholder="result"><br><br>
-		    <button class="leftmarg clean" onclick="clean();">Clean</button>
+		    <button id="clean">Clean</button>
         </div>
 
         <script src="js/script.js"></script>
