@@ -21,3 +21,10 @@ function division(){
 	var sn = document.getElementById("sn").value;
     document.getElementById("result").value = Number(fn) / Number(sn);
 }
+
+function clean(){
+
+	document.getElementById("fn").value = "";
+	document.getElementById("sn").value = "";
+	document.getElementById("result").value = "";
+}
