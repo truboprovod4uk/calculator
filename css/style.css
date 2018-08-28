@@ -47,7 +47,6 @@ h1, button {
     }
 }
 
-
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -55,7 +54,6 @@ h1, button {
 	width: 50%;
     }
 }
-
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -70,9 +68,10 @@ h1, button {
 	#container {
 	width: 90%;
     }
-
+    
     #division{
-    	width:23%;}
+    	width:23%;
+    }
 
     h1, button{
     	font-size:5vw;
